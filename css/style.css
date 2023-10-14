@@ -6,11 +6,15 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #111;
 }
+.box {
+    width: 150px;
+    height: 150px;
+  }
 .nav_logo{
-    width: 100px;
-    height: 1000px;
-    top: -600px;
-    left: 300px;
+    width: 150px;
+    height: 200px;
+    top: -200px;
+    left: 100px;
     object-fit: contain;
     width: 100%; 
     border: 1px;
@@ -18,85 +22,89 @@ body{
 .banner {
 color: white;
 object-fit: contain;
-height: 440px;
+height: 220px;
 }
 .banner_conter {
-    margin-left: 20px;
+    margin-left: 10px;
     padding-top: 50px;
-    height: 50px;
+    height: 5px;
     text-align:center;
 }
 .banner_title{
-    font-size: 10rem;
-    font-weight: 100;
+    font-size: 3rem;
+    font-weight: 50;
     padding-bottom: 0.3rem;
-
 }
 .container{
+    height: 2px;
+    margin: 0 auto;
+    max-width: 750px;
     display: flex;
-    align-items: center;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
 }
 .inline-1{
-    width: 600px;
-    height: 600px;
-    top: 640px;
-    left: 20px;
-    border-radius: 50px;
-    padding: 40px 50px;
-    border-radius: 20px;
-    border: 5px solid white;
-    cursor: pointer;
-    background-color: rgba(151, 71, 255, 1);
     background-image: url("robot.png");
+    border: 2px solid black;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-size: 150px;
 }
 .inline-2{
-    width: 600px;
-    height: 600px;
-    top: 640px;
-    left: 20px;
-    border-radius: 50px;
-    padding: 40px 50px;
-    border-radius: 20px;
-    border: 5px solid white;
-    cursor: pointer;
-    background-color: rgba(151, 71, 255, 1);
     background-image: url("pink.png");
+    border: 2px solid black;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-size: 150px;
 }
 .inline-3{
-    width: 600px;
-    height: 600px;
-    top: 640px;
-    left: 20px;
-    border-radius: 50px;
-    padding: 40px 50px;
-    border-radius: 20px;
-    border: 5px solid white;
-    cursor: pointer; rgba(151, 71, 255, 1);
+
     background-image: url("panda\ 1.png");
+    border: 2px solid black;
+    box-sizing: border-box; 
+    font-size: 16px;
+    background-size: 150px;
 }
 .inline-4{
-    width: 600px;
-    height: 600px;
-    top: 640px;
-    left: 20px;
-    border-radius: 50px;
-    padding: 40px 50px;
-    border-radius: 20px;
-    border: 5px solid white;
-    cursor: pointer;
-    background-color: rgba(151, 71, 255, 1);
     background-image: url("plus.png");
+    border: 2px solid black;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-size: 150px;
+}
+.inline-1:hover{
+    border: 5px solid white;
+    box-sizing: border-box;
+    width: 150px;
+    height: 150px;
+}
+.inline-2:hover{
+    border: 5px solid white;
+    box-sizing: border-box;
+    width: 150px;
+    height: 150px;
+}
+.inline-3:hover{
+    border: 5px solid white;
+    box-sizing: border-box;
+    width: 150px;
+    height: 150px;
+}
+.inline-4:hover{
+    border: 5px solid white;
+    box-sizing: border-box;
+    width: 150px;
+    height: 150px;
 }
 button {
-    font-size: 100px;
-    font-weight: 100;
+    font-size: 50px;
+    font-weight: 40;
     background-color: black;
     color: white;
-    padding: 40px 50px;
+    padding: 40px 80px rgb(125, 97, 161);
     border-radius: 30px;
-    border: 2px solid white;
+    border: 5px solid white;
     cursor: pointer;
 
   }
