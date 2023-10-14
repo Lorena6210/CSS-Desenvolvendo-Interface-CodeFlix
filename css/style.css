@@ -7,10 +7,10 @@ body{
     background-color: #111;
 }
 .nav_logo{
-    width: 1359px;
-    height: 1381px;
-    top: -636px;
-    left: 342px;
+    width: 100px;
+    height: 1000px;
+    top: -600px;
+    left: 300px;
     object-fit: contain;
     width: 100%; 
     border: 1px;
@@ -18,12 +18,12 @@ body{
 .banner {
 color: white;
 object-fit: contain;
-height: 448px;
+height: 440px;
 }
 .banner_conter {
-    margin-left: 30px;
-    padding-top: 140px;
-    height: 190px;
+    margin-left: 20px;
+    padding-top: 50px;
+    height: 50px;
     text-align:center;
 }
 .banner_title{
