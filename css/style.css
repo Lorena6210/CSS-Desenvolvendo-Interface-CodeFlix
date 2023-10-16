@@ -12,9 +12,9 @@ body{
   }
 .nav_logo{
     width: 150px;
-    height: 200px;
-    top: -200px;
-    left: 100px;
+    height: 150px;
+    top: -150px;
+    left: 50px;
     object-fit: contain;
     width: 100%; 
     border: 1px;
@@ -25,14 +25,14 @@ object-fit: contain;
 height: 220px;
 }
 .banner_conter {
-    margin-left: 10px;
-    padding-top: 50px;
+    margin-left: 20px;
+    padding-top: 80px;
     height: 5px;
     text-align:center;
 }
 .banner_title{
-    font-size: 3rem;
-    font-weight: 50;
+    font-size: 2rem;
+    font-weight: 20;
     padding-bottom: 0.3rem;
 }
 .container{
@@ -49,62 +49,86 @@ height: 220px;
     border: 2px solid black;
     box-sizing: border-box;
     font-size: 16px;
-    background-size: 150px;
+    border-radius: 10px;
+    background-size: 120px;
+    width: 120px;
+    height: 120px;
+    top: -200px;
+    left: 100px;
 }
 .inline-2{
     background-image: url("pink.png");
     border: 2px solid black;
     box-sizing: border-box;
     font-size: 16px;
-    background-size: 150px;
+    border-radius: 10px;
+    background-size: 120px;
+    width: 120px;
+    height: 120px;
+    top: -200px;
+    left: 100px;
 }
-.inline-3{
 
+.inline-3{
     background-image: url("panda\ 1.png");
     border: 2px solid black;
     box-sizing: border-box; 
     font-size: 16px;
-    background-size: 150px;
+    border-radius: 10px;
+    background-size: 120px;
+    width: 120px;
+    height: 120px;
+    top: -200px;
+    left: 100px;
 }
+
 .inline-4{
     background-image: url("plus.png");
     border: 2px solid black;
     box-sizing: border-box;
     font-size: 16px;
-    background-size: 150px;
+    border-radius: 10px;
+    background-size: 120px;
+    width: 120px;
+    height: 120px;
+    top: -200px;
+    left: 100px;
 }
 .inline-1:hover{
     border: 5px solid white;
     box-sizing: border-box;
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
 }
 .inline-2:hover{
     border: 5px solid white;
     box-sizing: border-box;
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
 }
 .inline-3:hover{
     border: 5px solid white;
     box-sizing: border-box;
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
 }
 .inline-4:hover{
     border: 5px solid white;
     box-sizing: border-box;
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
 }
 button {
-    font-size: 50px;
-    font-weight: 40;
+     width: 300px;
+    height: 60px;
+    top: -200px;
+    left: 100px;
+    font-size: 30px;
+    font-weight: 20;
     background-color: black;
     color: white;
-    padding: 40px 80px rgb(125, 97, 161);
-    border-radius: 30px;
-    border: 5px solid white;
+    border-radius: 10px;
+    border: 2px solid white;
     cursor: pointer;
 
   }
